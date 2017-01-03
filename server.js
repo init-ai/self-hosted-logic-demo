@@ -95,8 +95,6 @@ server.post('/', (req, res, next) => {
     // An instance of the client needs to be provided to the `handle` method
     // exported from behavior/scripts/index.js to emulate the Lambda pattern
     projectLogicScript.handle(initNodeClient)
-  } else {
-    console.log(':::::::::')
   }
 
   // Immediately return a 200 to acknowledge receipt of the Webhook
