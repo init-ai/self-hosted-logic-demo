@@ -1,0 +1,26 @@
+{
+  "name": "self-hosted-logic-demo",
+  "version": "1.0.0",
+  "description": "Demo Init.ai project with Message Webhook server to process logic invocations in your own environment.",
+  "main": "behavior/scripts/index.js",
+  "scripts": {
+    "start": "initai-dev-server",
+    "server": "node server.js",
+    "server:watch": "nodemon server.js"
+  },
+  "author": "Init.ai Developers <shared@init.ai>",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:init-ai/self-hosted-logic-demo"
+  },
+  "private": true,
+  "dependencies": {
+    "initai-dev-server": "^0.4.8",
+    "initai-node": "~0.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "restify": "^4.3.0"
+  }
+}
